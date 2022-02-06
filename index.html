@@ -9,23 +9,26 @@
 </head>
 <body>
     
-    <select name="Monnaie" id="Monnaie">
-    <option value="euro" id="euro">euro</option>
-    <option value="dollard" id="dollar">dollar</option>
-    <option value="dollardCanadien" id="dollarCanadien">dollarCanadien</option>
-    <option value="livresterling" id="livresterling">livre sterling</option>
-    <option value="franc suisse" id="francsuisse">franc suisse</option>
+    <select name="Monnaie" id="money1">
+    <option value="euro">euro</option>
+    <option value="dollard">dollar</option>
+    <option value="dollardCanadien">dollarCanadien</option>
+    <option value="livreSterling">livre sterling</option>
+    <option value="francSuisse">franc suisse</option>
 </select>
-<p>-</p>
-<select name="Monnaie" id="Monnaie5">
-    <option value="euro" id="euro5">euro</option>
-    <option value="dollard" id="dollar5">dollar</option>
-    <option value="dollardCanadien" id="dollarCanadien5">dollarCanadien</option>
-    <option value="livresterling" id="livresterling5">livre sterling</option>
-    <option value="franc suisse" id="francsuisse5">franc suisse</option>
+<p class="result"></p>
+<select name="Monnaie" id="money2">
+    <option value="euro">euro</option>
+    <option value="dollard">dollar</option>
+    <option value="dollardCanadien">dollarCanadien</option>
+    <option value="livreSterling">livre sterling</option>
+    <option value="francSuisse">franc suisse</option>
 </select>
 
-<button id="button" >cliquer ici</button>
-  <script src="java.js"></script>
+<button id="button" type="button" onclick="calculerlemontant();">cliquer ici</button>
+<input type="text" id="montant" placeholder="ici le montant">
+<input type="text"  id="result">
+
+  <script src="./java.js"></script>
 </body>
 </html>
